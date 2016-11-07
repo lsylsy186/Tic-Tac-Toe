@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+.app-container {
+  background-color: #eee;
+}
+.game-board {
+  display: flex;
+  align-items: center;
+
+}
+.board {
+  display: flex;
+  width: 510px;
+  height: 510px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  float:left;
+  padding:10px;
+}
+.panel {
+  width: 400px;
+  margin:0 auto;
+  padding: 50px;
+}
+.clock {
+  font-size: 15px;
+  font-family: Georgia;
+}
+.counter {
+  font-size: 5em;
+  padding-top: 20px;
+  padding-left: 100px;
+  color: #80cd92;
+  font-family: Georgia;
+}
+#btn{
+  margin: 0 auto;
+  margin-left: 100px;
+}
+#btn:hover{
+  background-color: #80cd92;
+  color: white;
+}
+.app-container{
+  font-family: "Times New Roman", Georgia, Serif;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.title{
+  text-align: center;
+}
+.square {
+  height: 170px;
+  width: 170px;
+  box-sizing: border-box;
+  border: 5px solid black;
+  border-collapse: collapse;
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square:hover {
+  cursor: pointer;
+  background-color: #80cd92;
+}
